@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    background-color: #f4f4f4;
+    color: #100c08;
+}
+
+.container {
+    max-width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+#image img {
+    width: 330px;
+    padding: 2rem;
+}
+
+.main-text {
+    font-size: 3.5rem;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.main-text h1 {
+    font-weight: 300;
+}
+
+#clock span {
+    font-size: 4rem;
+    font-weight: 300;
+}
+
+#clock {
+    margin-top: 4rem;
+}
